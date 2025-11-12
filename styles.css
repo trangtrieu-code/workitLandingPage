@@ -1,0 +1,33 @@
+@font-face {
+  font-family: CustomFont1;
+  src: url('workit-landing-page/starter-code/assets/fonts/manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: CustomFont2;
+  src: url('workit-landing-page/starter-code/assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body
+{
+  font-family: CustomFont1, sans-serif;
+}
+
+h1, h2, h3
+{
+  font-family: CustomFont2, sans-serif;
+}
+
+header
+{
+  background-color: #24053e;
+}
+
+button
+{
+  background-color: #43ffa1;
+}
